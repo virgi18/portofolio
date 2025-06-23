@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
     <title>Belajar Html</title>
 </head>
 <body>
     <header class="menu">
     <img src="logo.png" alt="mylogo" width="100" height="70">
     <ul>
-        <li><a href="main.html">Beranda</a></li>
+        <li><a href="#">Beranda</a></li>
         <li><a href="#about">About Me</a></li>
-        <li><a href="#">Contact Me</a></li>
+        <li><a href="#project">My Project</a></li>
+        <li><a href="#" onclick="konfirmasiKontak()">Contact Me</a></li>
     </ul>
     </header>
     <div id="welcome">
@@ -20,7 +22,9 @@
         <h1 class="welcome">Muhamad Virgiawan Nugroho</h1>
         <hr class="divider"></hr>
             <div class="info">
-                <a style="text-decoration: none;" href="#" class="button-a">IT SUPPORT and Network Engineer</a>
+                <a href="#" class="button-a" onclick="alert('Halo! Anda sedang melihat profil saya 😊')">
+                IT SUPPORT and Network Engineer
+                </a>
             </div>
     </div>
     <hr class="divider"></hr>
@@ -88,6 +92,10 @@
                 </section>
             </div>
         </div>
+
+        <div>
+
+        </div>
 </body>
 <footer class="footer">
   <div class="footer-container">
@@ -100,5 +108,4 @@
     </div>
   </div>
 </footer>
-
 </html>
